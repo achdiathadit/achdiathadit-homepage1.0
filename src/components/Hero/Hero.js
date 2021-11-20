@@ -9,7 +9,7 @@ import {
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-const Hero = (props) => (
+const Hero = () => (
 	<Section row nopadding>
 		<LeftSection>
 			<SectionSubTitle>Hello there, my name is</SectionSubTitle>
@@ -21,6 +21,11 @@ const Hero = (props) => (
 				pursue his passion to become a professional full-stack web developer. I
 				also enjoy teaching and building things.
 			</SectionText>
+			<Button
+				onClick={() => (window.location = 'mailto:achdiat.dev@gmail.com')}
+			>
+				Let's Talk
+			</Button>
 		</LeftSection>
 	</Section>
 );

@@ -34,7 +34,7 @@ const Header = () => (
 			</li>
 			<li>
 				<Link href='#about'>
-					<NavLink>About</NavLink>
+					<NavLink>About Me</NavLink>
 				</Link>
 			</li>
 		</Div2>
