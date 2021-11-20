@@ -26,8 +26,8 @@ export const Section = styled.section`
 
 export const SectionTitle = styled.h2`
 	font-weight: 800;
-	font-size: ${(props) => (props.main ? '65px' : '56px')};
-	line-height: ${(props) => (props.main ? '72px' : '56px')};
+	font-size: ${(props) => (props.main ? '48px' : '36px')};
+	line-height: ${(props) => (props.main ? '48px' : '36px')};
 	width: max-content;
 	max-width: 100%;
 	background: linear-gradient(
@@ -39,14 +39,24 @@ export const SectionTitle = styled.h2`
 	-webkit-text-fill-color: transparent;
 	margin-bottom: 16px;
 	padding: ${(props) =>
-		props.main ? '58px 0 16px' : props.undersub ? '8px 0 12px' : '0'};
+		props.main && !props.undersub
+			? '48px 0 16px'
+			: props.main && props.undersub
+			? '8px 0 12px'
+			: '0'};
 
 	@media ${(props) => props.theme.breakpoints.md} {
 		font-size: ${(props) => (props.main ? '56px' : '48px')};
 		line-height: ${(props) => (props.main ? '56px' : '48px')};
 		margin-bottom: 12px;
+		margin-left: auto;
+		margin-right: auto;
 		padding: ${(props) =>
-			props.main ? '40px 0 12px' : props.undersub ? '8px 0 12px' : '0'};
+			props.main && !props.undersub
+				? '40px 0 12px'
+				: props.main && props.undersub
+				? '8px 0 12px'
+				: '0'};
 	}
 
 	@media ${(props) => props.theme.breakpoints.sm} {
@@ -55,8 +65,14 @@ export const SectionTitle = styled.h2`
 		font-size: ${(props) => (props.main ? '28px' : '32px')};
 		line-height: ${(props) => (props.main ? '32px' : '40px')};
 		margin-bottom: 8px;
+		margin-left: auto;
+		margin-right: auto;
 		padding: ${(props) =>
-			props.main ? '16px 0 8px' : props.undersub ? '8px 0 8px' : '0'};
+			props.main && !props.undersub
+				? '16px 0 8px'
+				: props.main && props.undersub
+				? '8px 0 8px'
+				: '0'};
 		max-width: 100%;
 	}
 `;
@@ -86,7 +102,7 @@ export const SectionSubTitle = styled.h2`
 
 	@media ${(props) => props.theme.breakpoints.sm} {
 		font-size: 16px;
-		line-height: 24;
+		line-height: 24px;
 		margin-bottom: 8px;
 		padding: 16px 0 0;
 		max-width: 100%;
@@ -95,8 +111,8 @@ export const SectionSubTitle = styled.h2`
 
 export const SectionText = styled.p`
 	max-width: 800px;
-	font-size: 24px;
-	line-height: 40px;
+	font-size: 20px;
+	line-height: 28px;
 	font-weight: 300;
 	padding-bottom: 3.6rem;
 	color: rgba(255, 255, 255, 0.5);
@@ -104,14 +120,14 @@ export const SectionText = styled.p`
 	@media ${(props) => props.theme.breakpoints.md} {
 		max-width: 670px;
 		font-size: 20px;
-		line-height: 32px;
-		padding-bottom: 24px;
+		line-height: 28px;
+		padding: 0 12px 24px;
 	}
 
 	@media ${(props) => props.theme.breakpoints.sm} {
 		font-size: 16px;
 		line-height: 24px;
-		padding-bottom: 16px;
+		padding: 0 12px 16px;
 	}
 `;
 
@@ -130,11 +146,15 @@ export const SectionDivider = styled.div`
 	@media ${(props) => props.theme.breakpoints.md} {
 		width: 48px;
 		height: 4px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	@media ${(props) => props.theme.breakpoints.sm} {
 		width: 32px;
 		height: 2px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 `;
 export const SectionSubText = styled.p`
@@ -208,9 +228,9 @@ export const SecondaryBtn = styled.button`
 
 export const ButtonBack = styled.div`
 	width: ${({ alt }) => (alt ? '150px' : '262px')};
-	height: ${({ alt }) => (alt ? '52px' : '64px')};
+	height: 52px;
 	border-radius: 50px;
-	font-size: ${({ alt }) => (alt ? '20px' : '24px')};
+	font-size: 20px;
 	font-weight: 600;
 	display: flex;
 	align-items: center;
@@ -226,6 +246,9 @@ export const ButtonBack = styled.div`
 	position: relative;
 	overflow: hidden;
 	opacity: ${({ disabled }) => (disabled ? '.5' : '1')};
+	&:hover {
+		box-shadow: inset 0 -5px 5px #ffffff69;
+	}
 
 	@media ${(props) => props.theme.breakpoints.md} {
 		width: ${({ alt }) => (alt ? '150px' : '184px')};
@@ -256,9 +279,9 @@ export const ButtonFront = styled.button`
 		alt
 			? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)'
 			: 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
-	opacity: ${({ disabled }) => (disabled ? '.5' : '1')};
+	opacity: ${({ disabled }) => (disabled ? '.5' : '1.5')};
 	transition: 0.4s ease;
-	font-size: ${({ alt }) => (alt ? '20px' : '24px')};
+	font-size: 20px;
 	font-weight: 600;
 	align-items: center;
 	justify-content: center;

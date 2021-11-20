@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiExternalLink, FiGithub } from 'react-icons/fi';
 
 import {
 	BlogCard,
@@ -12,6 +13,7 @@ import {
 	TitleContent,
 	UtilityList,
 	Img,
+	ImgContainer,
 } from './ProjectsStyles';
 import {
 	Section,
@@ -22,30 +24,34 @@ import { projects } from '../../constants/constants';
 
 const Projects = () => (
 	<Section nopadding id='projects'>
-		<SectionDivider />
+		<SectionDivider divider />
 		<SectionTitle>Projects</SectionTitle>
 		<GridContainer>
 			{projects.map(
 				({ title, description, image, tags, source, visit, id }) => (
 					<BlogCard key={id}>
-						<Img src={image} />
+						<ImgContainer>
+							<Img src={image} />
+						</ImgContainer>
 						<TitleContent>
 							<HeaderThree title>{title}</HeaderThree>
-							<Hr />
 						</TitleContent>
-						<CardInfo>{description}</CardInfo>
-						<div>
-							<TitleContent>Stack</TitleContent>
-							<TagList>
-								{tags.map((tag, i) => (
-									<Tag key={1}>{tag}</Tag>
-								))}
-							</TagList>
-						</div>
 						<UtilityList>
-							<ExternalLinks href={visit}>Code</ExternalLinks>
-							<ExternalLinks href={source}>Source</ExternalLinks>
+							<ExternalLinks href={visit}>
+								<FiExternalLink size='2rem' />
+							</ExternalLinks>
+							<ExternalLinks href={source}>
+								<FiGithub size='2rem' />
+							</ExternalLinks>
 						</UtilityList>
+						<CardInfo>{description}</CardInfo>
+						<Hr />
+						<TitleContent>Stack</TitleContent>
+						<TagList>
+							{tags.map((tag, i) => (
+								<Tag key={1}>{tag}</Tag>
+							))}
+						</TagList>
 					</BlogCard>
 				)
 			)}

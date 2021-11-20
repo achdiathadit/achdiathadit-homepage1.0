@@ -13,7 +13,7 @@ const Hero = () => (
 	<Section row nopadding>
 		<LeftSection>
 			<SectionSubTitle>Hello there, my name is</SectionSubTitle>
-			<SectionTitle undersub center>
+			<SectionTitle undersub main center>
 				Achdiat Hadit.
 			</SectionTitle>
 			<SectionText>
