@@ -14,6 +14,19 @@ const data = [
 	{ number: 5000, text: 'Github Stars' },
 ];
 
-const Accomplishments = () => <div>Accomplishments</div>;
+const Accomplishments = () => (
+	<Section>
+		<SectionDivider divider />
+		<SectionTitle>Achievements</SectionTitle>
+		<Boxes>
+			{data.map((card, index) => (
+				<Box key={index}>
+					<BoxNum>{card.number}+</BoxNum>
+					<BoxText>{card.text}</BoxText>
+				</Box>
+			))}
+		</Boxes>
+	</Section>
+);
 
 export default Accomplishments;
