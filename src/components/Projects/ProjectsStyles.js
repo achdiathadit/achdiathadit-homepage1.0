@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ImgContainer = styled.div`
 	overflow: hidden;
 	height: 230px;
-	margin-bottom: 1rem;
+	margin-bottom: 3rem;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 	align-content: center;
@@ -12,10 +12,11 @@ export const ImgContainer = styled.div`
 export const Img = styled.img`
 	width: 100%;
 	height: 100%;
+	transform: scale(1.1);
 	transition: 0.5s ease;
 	object-fit: cover;
 	&:hover {
-		transform: scale(1.2);
+		transform: scale(1);
 		cursor: pointer;
 	}
 `;
@@ -52,14 +53,14 @@ export const TitleContent = styled.div`
 
 export const HeaderThree = styled.h3`
 	font-weight: 500;
-	color: #9cc9e3;
+	color: #13adc7;
 	padding: 0.5rem 0;
-	margin-bottom: 1rem;
-	font-size: ${(props) => (props.title ? '3rem' : '2rem')};
+	margin-bottom: 0;
+	font-size: ${(props) => (props.title ? '3rem' : '2.5rem')};
 `;
 
 export const Hr = styled.hr`
-	width: 50px;
+	width: 90px;
 	height: 3px;
 	margin: 0 auto 2rem;
 	border: 0;
@@ -94,7 +95,7 @@ export const UtilityList = styled.ul`
 	padding: 0;
 	display: flex;
 	justify-content: center;
-	margin: auto;
+	margin: 0 1.5rem;
 `;
 
 export const ExternalLinks = styled.a`

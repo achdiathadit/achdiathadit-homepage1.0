@@ -34,7 +34,7 @@ const Projects = () => (
 							<Img src={image} />
 						</ImgContainer>
 						<TitleContent>
-							<HeaderThree title>{title}</HeaderThree>
+							<HeaderThree>{title}</HeaderThree>
 						</TitleContent>
 						<UtilityList>
 							<ExternalLinks href={visit}>

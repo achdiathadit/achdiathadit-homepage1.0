@@ -55,6 +55,7 @@ export const List = styled.ul`
 `;
 
 export const ListContainer = styled.div`
+	margin-top: 2rem;
 	display: flex;
 	flex-direction: column;
 
@@ -114,6 +115,7 @@ export const ListItem = styled.li`
 		margin-bottom: 14px;
 		max-width: 320px;
 		flex-direction: row;
+		align-items: center;
 	}
 `;
 
