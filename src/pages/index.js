@@ -1,11 +1,11 @@
-import Accomplishments from '../components/Accomplishments/Accomplishments';
-import BgAnimation from '../components/BackgroundAnimation/BackgroundAnimation';
-import Hero from '../components/Hero/Hero';
-import Projects from '../components/Projects/Projects';
-import Technologies from '../components/Technologies/Technologies';
-import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import Hero from '../components/Hero/Hero';
+import BgAnimation from '../components/BackgroundAnimation/BackgroundAnimation';
+import Projects from '../components/Projects/Projects';
+import TechStack from '../components/Technologies/Technologies';
+import AboutMe from '../components/TimeLine/TimeLine';
+import Achievements from '../components/Accomplishments/Accomplishments';
 
 const Home = () => {
 	return (
@@ -15,9 +15,9 @@ const Home = () => {
 				<BgAnimation />
 			</Section>
 			<Projects />
-			<Technologies />
-			<Timeline />
-			<Accomplishments />
+			<TechStack />
+			<AboutMe />
+			<Achievements />
 		</Layout>
 	);
 };

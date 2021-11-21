@@ -102,7 +102,7 @@ export const ListParagraph = styled.p`
 	}
 `;
 
-export const ListItem = styled.li`
+export const ListItem = styled.div`
 	max-width: 320px;
 	display: flex;
 	flex-direction: column;

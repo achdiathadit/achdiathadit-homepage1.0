@@ -1,6 +1,5 @@
 import React from 'react';
 import { AiFillGithub, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai';
-
 import { SocialIcons } from '../Header/HeaderStyles';
 import {
 	CompanyContainer,

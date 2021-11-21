@@ -2,7 +2,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
-
 import {
 	Container,
 	Div1,
