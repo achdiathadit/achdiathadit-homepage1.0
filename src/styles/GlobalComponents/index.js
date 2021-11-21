@@ -381,7 +381,7 @@ export const LinkIconImg = styled.div`
 	}
 `;
 
-export const ALink = styled.a`
+export const Alink = styled.span`
 	color: #cccccc;
 	transition: 0.4s ease;
 	font-weight: bold;

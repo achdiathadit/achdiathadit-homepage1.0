@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
 import {
 	CarouselButton,
@@ -20,7 +19,7 @@ import {
 	SectionLeft,
 	SectionRight,
 	FlexContainer,
-	ALink,
+	Alink,
 } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
@@ -96,12 +95,12 @@ const Timeline = () => {
 						<br />
 						<br />I also enjoy teaching and sharing knowledge, one way is
 						through my{' '}
-						<Link
-							href={'https://www.youtube.com/channel/UC99tWCN_0aIB6E0sCKB8OoA'}
+						<a
+							href='https://www.youtube.com/channel/UC99tWCN_0aIB6E0sCKB8OoA'
 							target='_blank'
 						>
-							<ALink>YouTube channel</ALink>
-						</Link>
+							<Alink>YouTube channel</Alink>
+						</a>
 						.
 					</SectionText>
 				</SectionLeft>
