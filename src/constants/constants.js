@@ -1,50 +1,50 @@
 export const projects = [
 	{
-		title: 'MERN Memories',
+		title: 'Homepage 1.0',
 		description:
-			"Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+			'My very first personal homepage using just plain HTML and CSS. Simple and fun.',
 		image: '/images/1.png',
-		tags: ['Mongo', 'Express', 'React', 'Node'],
-		source: 'https://google.com',
-		visit: 'https://google.com',
+		tags: ['Javascript', 'HTML', 'CSS'],
+		source: 'https://github.com/achdiathadit/personal-site',
+		visit: 'https://achdiathadit.github.io/personal-site/',
 		id: 0,
 	},
 	{
-		title: 'E-Commerce',
+		title: 'Stackbuy',
 		description:
-			"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+			'Built with MERN stack, Stackbuy is an e-commerce site specifically for gadget enthusiast.',
 		image: '/images/2.png',
-		tags: ['React', 'JavaScript'],
-		source: 'https://google.com',
-		visit: 'https://google.com',
+		tags: ['React', 'Nodejs', 'Express', 'MongoDB'],
+		source: 'https://github.com/achdiathadit/stackbuy',
+		visit: 'https://github.com/achdiathadit/stackbuy',
 		id: 1,
 	},
 	{
-		title: 'WebRTC App',
-		description:
-			"This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-		image: '/images/3.jpg',
-		tags: ['React', 'WebRTC'],
-		source: 'https://google.com',
-		visit: 'https://google.com',
+		title: 'Octofinder',
+		description: 'The best way to look for your favorite Github users.',
+		image: '/images/3.png',
+		tags: ['React', 'Nodejs', 'Github API'],
+		source: 'https://github.com/achdiathadit/octofinder',
+		visit: 'https://achdiathadit.github.io/octofinder/',
 		id: 2,
 	},
 	{
-		title: 'Unichat',
+		title: 'Dice Game',
 		description:
-			'This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application',
-		image: '/images/4.jpg',
-		tags: ['React', 'ChatEngine', 'Firebase'],
-		source: 'https://google.com',
-		visit: 'https://google.com',
+			'Random dice game that really pumps your adrenaline. You dice, we dice.',
+		image: '/images/4.png',
+		tags: ['Javascript', 'HTML', 'CSS'],
+		source: 'https://github.com/achdiathadit/dice-game',
+		visit: 'https://achdiathadit.github.io/dice-game/',
 		id: 3,
 	},
 ];
 
 export const TimeLineData = [
-	{ year: 2017, text: 'Started my journey' },
-	{ year: 2018, text: 'Worked as a freelance developer' },
-	{ year: 2019, text: 'Founded JavaScript Mastery' },
-	{ year: 2020, text: 'Shared my projects with the world' },
-	{ year: 2021, text: 'Started my own platform' },
+	{ year: 2019, text: 'Started my journey as web developer' },
+	{
+		year: 2020,
+		text: 'Worked as freelance web developer and started my YouTube channel',
+	},
+	{ year: 2021, text: 'Get hired as professional frontend developer' },
 ];

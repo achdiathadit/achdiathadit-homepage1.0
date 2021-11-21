@@ -20,8 +20,8 @@ const Technologies = () => (
 		<SectionTitle>Tech Stack</SectionTitle>
 		<SectionText>
 			The magic of user experience and behind-the-scenes of the blockbuster web
-			and apps lies here. Here are a few tech stack I’ve been working with
-			recently:
+			and apps lies here. <br />
+			Here are a few tech stack I’ve been working with recently:
 		</SectionText>
 		<List>
 			<ListItem>

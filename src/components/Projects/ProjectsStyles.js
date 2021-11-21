@@ -64,13 +64,13 @@ export const Hr = styled.hr`
 	height: 3px;
 	margin: 0 auto 2rem;
 	border: 0;
-	background: #d0bb57;
+	background: #13adc7;
 `;
 
 export const Intro = styled.div`
 	width: 170px;
 	margin: 0 auto;
-	color: #dce3e7;
+	color: #cccccc;
 	font-family: 'Droid Serif', serif;
 	font-size: 13px;
 	font-style: italic;
@@ -80,7 +80,7 @@ export const Intro = styled.div`
 export const CardInfo = styled.p`
 	width: 100%;
 	padding: 0 50px;
-	color: #e4e6e7;
+	color: #cccccc;
 	font-style: 2rem;
 	line-height: 24px;
 	text-align: left;

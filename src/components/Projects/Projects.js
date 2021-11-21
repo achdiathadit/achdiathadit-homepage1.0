@@ -18,6 +18,7 @@ import {
 import {
 	Section,
 	SectionDivider,
+	SectionText,
 	SectionTitle,
 } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
@@ -26,21 +27,26 @@ const Projects = () => (
 	<Section nopadding id='projects'>
 		<SectionDivider divider />
 		<SectionTitle>Projects</SectionTitle>
+		<SectionText>
+			Please take a look at the projects that I've made so far.
+		</SectionText>
 		<GridContainer>
 			{projects.map(
 				({ title, description, image, tags, source, visit, id }) => (
 					<BlogCard key={id}>
 						<ImgContainer>
-							<Img src={image} />
+							<a href={visit} target='_blank'>
+								<Img src={image} />
+							</a>
 						</ImgContainer>
 						<TitleContent>
 							<HeaderThree>{title}</HeaderThree>
 						</TitleContent>
 						<UtilityList>
-							<ExternalLinks href={visit}>
+							<ExternalLinks href={visit} target='_blank'>
 								<FiExternalLink size='2rem' />
 							</ExternalLinks>
-							<ExternalLinks href={source}>
+							<ExternalLinks href={source} target='_blank'>
 								<FiGithub size='2rem' />
 							</ExternalLinks>
 						</UtilityList>

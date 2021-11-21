@@ -5,7 +5,7 @@ import BgAnimation from '../components/BackgroundAnimation/BackgroundAnimation';
 import Projects from '../components/Projects/Projects';
 import TechStack from '../components/Technologies/Technologies';
 import AboutMe from '../components/TimeLine/TimeLine';
-import Achievements from '../components/Accomplishments/Accomplishments';
+// import Achievements from '../components/Accomplishments/Accomplishments';
 
 const Home = () => {
 	return (
@@ -14,10 +14,10 @@ const Home = () => {
 				<Hero />
 				<BgAnimation />
 			</Section>
+			<AboutMe />
 			<Projects />
 			<TechStack />
-			<AboutMe />
-			<Achievements />
+			{/* <Achievements /> */}
 		</Layout>
 	);
 };

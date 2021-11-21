@@ -37,7 +37,7 @@ export const SectionTitle = styled.h2`
 	);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	margin-bottom: 16px;
+	margin-bottom: 5rem;
 	padding: ${(props) =>
 		props.main && !props.undersub
 			? '48px 0 16px'
@@ -96,6 +96,8 @@ export const SectionSubTitle = styled.h2`
 	@media ${(props) => props.theme.breakpoints.md} {
 		font-size: 20px;
 		line-height: 32px;
+		margin-left: auto;
+		margin-right: auto;
 		margin-bottom: 8px;
 		padding: 40px 0 0;
 	}
@@ -103,6 +105,8 @@ export const SectionSubTitle = styled.h2`
 	@media ${(props) => props.theme.breakpoints.sm} {
 		font-size: 16px;
 		line-height: 24px;
+		margin-left: auto;
+		margin-right: auto;
 		margin-bottom: 8px;
 		padding: 16px 0 0;
 		max-width: 100%;
@@ -110,21 +114,21 @@ export const SectionSubTitle = styled.h2`
 `;
 
 export const SectionText = styled.p`
-	max-width: 800px;
 	font-size: 20px;
 	line-height: 28px;
 	font-weight: 300;
 	padding-bottom: 3.6rem;
-	color: rgba(255, 255, 255, 0.5);
+	color: #cccccc;
 
 	@media ${(props) => props.theme.breakpoints.md} {
-		max-width: 670px;
+		max-width: 100%;
 		font-size: 20px;
 		line-height: 28px;
 		padding: 0 12px 24px;
 	}
 
 	@media ${(props) => props.theme.breakpoints.sm} {
+		max-width: 100%;
 		font-size: 16px;
 		line-height: 24px;
 		padding: 0 12px 16px;
@@ -162,7 +166,7 @@ export const SectionSubText = styled.p`
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 32px;
-	color: rgba(255, 255, 255, 0.75);
+	color: #cccccc;
 
 	@media ${(props) => props.theme.breakpoints.md} {
 		max-width: 672px;
@@ -175,6 +179,30 @@ export const SectionSubText = styled.p`
 		line-height: 22px;
 	}
 `;
+
+export const FlexContainer = styled.div`
+	display: flex;
+	flex-direction: row;
+	align-items: start;
+	@media ${(props) => props.theme.breakpoints.md} {
+		flex-direction: column;
+	}
+	margin-bottom: 2rem;
+`;
+
+export const SectionRight = styled.div`
+	order: 3;
+	@media ${(props) => props.theme.breakpoints.md} {
+		order: 1;
+	}
+`;
+
+export const SectionLeft = styled.div`
+	max-width: 80%;
+	margin-right: 3rem;
+	order: 2;
+`;
+
 export const SecondaryBtn = styled.button`
 	color: #fff;
 	background: none;
@@ -350,5 +378,16 @@ export const LinkIconImg = styled.div`
 
 	@media ${(props) => props.theme.breakpoints.sm} {
 		height: ${({ large }) => (large ? '32px' : '16px')};
+	}
+`;
+
+export const ALink = styled.a`
+	color: #cccccc;
+	transition: 0.4s ease;
+	font-weight: bold;
+	&:hover {
+		color: #13adc7;
+		opacity: 1;
+		cursor: pointer;
 	}
 `;

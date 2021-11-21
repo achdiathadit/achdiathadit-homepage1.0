@@ -17,9 +17,9 @@ const Hero = () => (
 				Achdiat Hadit.
 			</SectionTitle>
 			<SectionText>
-				I'm a former corporate strategist who loves coding and design swerved to
-				pursue his passion to become a professional full-stack web developer. I
-				also enjoy teaching and building things.
+				I'm a former white collar who loves coding and design swerved to pursue
+				his passion to become a professional full-stack web developer. I also
+				enjoy teaching and building things.
 			</SectionText>
 			<Button
 				onClick={() => (window.location = 'mailto:achdiat.dev@gmail.com')}

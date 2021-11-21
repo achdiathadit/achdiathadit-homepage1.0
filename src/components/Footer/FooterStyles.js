@@ -16,14 +16,14 @@ export const FooterWrapper = styled.section`
 export const LinkItem = styled.a`
 	font-size: 18px;
 	line-height: 30px;
-	color: rgba(255, 255, 255, 0.75);
+	color: #cccccc;
 	margin-bottom: 16px;
 	transition: 0.3s ease;
 	position: relative;
 	left: 0;
 
 	&:hover {
-		color: #fff;
+		color: #13adc7;
 		left: 6px;
 	}
 
@@ -34,8 +34,8 @@ export const LinkItem = styled.a`
 	}
 
 	@media ${(props) => props.theme.breakpoints.sm} {
-		font-size: 8px;
-		line-height: 14px;
+		font-size: 16px;
+		line-height: 28px;
 		margin-bottom: 8px;
 		display: flex;
 		align-items: center;
@@ -79,7 +79,7 @@ export const CompanyContainer = styled.div`
 `;
 
 export const Slogan = styled.p`
-	color: rgba(255, 255, 255, 0.5);
+	color: #cccccc;
 	min-width: 280px;
 	letter-spacing: 0.02em;
 	font-size: 18px;

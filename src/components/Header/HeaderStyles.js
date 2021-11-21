@@ -54,7 +54,22 @@ export const Div3 = styled.div`
 export const NavLink = styled.a`
 	font-size: 2rem;
 	line-height: 32px;
-	color: rgba(255, 255, 255, 0.75);
+	color: #cccccc;
+	transition: 0.4s ease;
+	&:hover {
+		color: #13adc7;
+		opacity: 1;
+		cursor: pointer;
+	}
+	@media ${(props) => props.theme.breakpoints.sm} {
+		padding: 0.5rem;
+	}
+`;
+
+export const NavBrand = styled.a`
+	font-size: 2rem;
+	line-height: 32px;
+	color: #cccccc;
 	transition: 0.4s ease;
 	&:hover {
 		color: #13adc7;
@@ -75,7 +90,7 @@ export const ContactDropDown = styled.button`
 	font-size: 1.7rem;
 
 	line-height: 32px;
-	color: rgba(255, 255, 255, 0.75);
+	color: #cccccc;
 	cursor: pointer;
 	transition: 0.3s ease;
 

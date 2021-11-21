@@ -8,6 +8,7 @@ import {
 	Div2,
 	Div3,
 	NavLink,
+	NavBrand,
 	SocialIcons,
 } from './HeaderStyles';
 
@@ -15,12 +16,17 @@ const Header = () => (
 	<Container>
 		<Div1>
 			<Link href='/'>
-				<NavLink>
+				<NavBrand>
 					<Image src='/images/ah-logo-4.0-final.svg' height={40} width={40} />
-				</NavLink>
+				</NavBrand>
 			</Link>
 		</Div1>
 		<Div2>
+			<li>
+				<Link href='#about'>
+					<NavLink>About Me</NavLink>
+				</Link>
+			</li>
 			<li>
 				<Link href='#projects'>
 					<NavLink>Projects</NavLink>
@@ -29,11 +35,6 @@ const Header = () => (
 			<li>
 				<Link href='#tech'>
 					<NavLink>Tech Stack</NavLink>
-				</Link>
-			</li>
-			<li>
-				<Link href='#about'>
-					<NavLink>About Me</NavLink>
 				</Link>
 			</li>
 		</Div2>
