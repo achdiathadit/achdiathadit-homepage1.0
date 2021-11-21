@@ -75,9 +75,9 @@ const Timeline = () => {
 			<FlexContainer>
 				<SectionRight>
 					<Image
-						src='/images/profpicaltred.png'
-						height={300}
-						width={280}
+						src='/images/profpicaltbw.png'
+						height={370}
+						width={345}
 						quality={100}
 					/>
 				</SectionRight>
