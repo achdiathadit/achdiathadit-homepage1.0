@@ -26,9 +26,9 @@ import { projects } from '../../constants/constants';
 const Projects = () => (
 	<Section nopadding id='projects'>
 		<SectionDivider divider />
-		<SectionTitle>Projects</SectionTitle>
+		<SectionTitle>Some Projects I've Done</SectionTitle>
 		<SectionText>
-			Please take a look at the projects that I've made so far.
+			Please take a look at the projects that I've done so far.
 		</SectionText>
 		<GridContainer>
 			{projects.map(

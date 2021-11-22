@@ -37,6 +37,11 @@ const Header = () => (
 					<NavLink>Tech Stack</NavLink>
 				</Link>
 			</li>
+			<li>
+				<Link href='#contact'>
+					<NavLink>Contact</NavLink>
+				</Link>
+			</li>
 		</Div2>
 		<Div3>
 			<SocialIcons href='https://github.com/achdiathadit' target='_blank'>

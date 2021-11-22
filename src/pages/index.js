@@ -5,6 +5,7 @@ import BgAnimation from '../components/BackgroundAnimation/BackgroundAnimation';
 import Projects from '../components/Projects/Projects';
 import TechStack from '../components/Technologies/Technologies';
 import AboutMe from '../components/TimeLine/TimeLine';
+import Contact from '../components/Contact/Contact';
 // import Achievements from '../components/Accomplishments/Accomplishments';
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
 			<AboutMe />
 			<Projects />
 			<TechStack />
+			<Contact />
 			{/* <Achievements /> */}
 		</Layout>
 	);
