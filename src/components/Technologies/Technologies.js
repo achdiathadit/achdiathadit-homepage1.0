@@ -30,6 +30,7 @@ const Technologies = () => (
 					<ListTitle>Frontend</ListTitle>
 					<ListParagraph>
 						<li>React</li>
+						<li>Redux</li>
 						<li>Nextjs</li>
 						<li>Styled Components</li>
 						<li>Bootstrap</li>
