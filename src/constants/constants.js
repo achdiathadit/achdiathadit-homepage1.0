@@ -38,6 +38,16 @@ export const projects = [
 		visit: 'https://achdiathadit.github.io/dice-game/',
 		id: 3,
 	},
+	{
+		title: 'Giggle',
+		description:
+			'Like Google, Giggle is a search engine that will help you find all the information you need. Just Giggling it!',
+		image: '/images/5.png',
+		tags: ['React', 'Tailwind CSS', 'Google API'],
+		source: 'https://github.com/achdiathadit/giggle',
+		visit: 'https://search-giggle.netlify.app',
+		id: 4,
+	},
 ];
 
 export const TimeLineData = [
