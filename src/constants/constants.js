@@ -16,7 +16,7 @@ export const projects = [
 		image: '/images/2.png',
 		tags: ['React', 'Nodejs', 'Express', 'MongoDB'],
 		source: 'https://github.com/achdiathadit/stackbuy',
-		visit: 'https://github.com/achdiathadit/stackbuy',
+		visit: 'https://github.com/achdiathadit/stackbuy/',
 		id: 1,
 	},
 	{
@@ -45,7 +45,7 @@ export const projects = [
 		image: '/images/5.png',
 		tags: ['React', 'Tailwind CSS', 'Google API'],
 		source: 'https://github.com/achdiathadit/giggle',
-		visit: 'https://search-giggle.netlify.app',
+		visit: 'https://search-giggle.netlify.app/',
 		id: 4,
 	},
 ];
