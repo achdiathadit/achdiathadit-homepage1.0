@@ -41,7 +41,7 @@ export const projects = [
 	{
 		title: 'Giggle',
 		description:
-			'Like Google, Giggle is a search engine that will help you find all the information you need. Just Giggling it!',
+			'Just like Google, Giggle is a search engine that will help you find all the information you need. Just Giggling it!',
 		image: '/images/5.png',
 		tags: ['React', 'Tailwind CSS', 'Google API'],
 		source: 'https://github.com/achdiathadit/giggle',
