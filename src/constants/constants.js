@@ -48,6 +48,16 @@ export const projects = [
 		visit: 'https://search-giggle.netlify.app/',
 		id: 4,
 	},
+	{
+		title: '7th Heaven NFT Marketplace',
+		description:
+			'Enjoy a unique transaction experience on the NFT marketplace, only in your hands.',
+		image: '/images/6.png',
+		tags: ['React', 'React Native', 'Tailwind CSS'],
+		source: 'https://github.com/achdiathadit/seventh-heaven-showcase',
+		visit: 'https://seventh-heaven-showcase.vercel.app/',
+		id: 5,
+	},
 ];
 
 export const TimeLineData = [
