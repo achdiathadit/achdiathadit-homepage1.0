@@ -14,34 +14,34 @@ import {
 
 const Header = () => (
 	<Container>
-		<Div1>
-			<Link href='/'>
-				<NavBrand>
-					<Image src='/images/ah-logo-4.0-final.svg' height={40} width={40} />
-				</NavBrand>
-			</Link>
-		</Div1>
+    <Div1>
+        <Link href='/' legacyBehavior passHref>
+            <NavBrand>
+                <Image src='/images/ah-logo-4.0-final.svg' height={40} width={40} alt='AH logo' />
+            </NavBrand>
+        </Link>
+    </Div1>
 		<Div2>
-			<li>
-				<Link href='#about'>
-					<NavLink>About Me</NavLink>
-				</Link>
-			</li>
-			<li>
-				<Link href='#projects'>
-					<NavLink>Projects</NavLink>
-				</Link>
-			</li>
-			<li>
-				<Link href='#tech'>
-					<NavLink>Tech Stack</NavLink>
-				</Link>
-			</li>
-			<li>
-				<Link href='#contact'>
-					<NavLink>Contact</NavLink>
-				</Link>
-			</li>
+            <li>
+                <Link href='#about' legacyBehavior passHref>
+                    <NavLink>About Me</NavLink>
+                </Link>
+            </li>
+            <li>
+                <Link href='#projects' legacyBehavior passHref>
+                    <NavLink>Projects</NavLink>
+                </Link>
+            </li>
+            <li>
+                <Link href='#tech' legacyBehavior passHref>
+                    <NavLink>Tech Stack</NavLink>
+                </Link>
+            </li>
+            <li>
+                <Link href='#contact' legacyBehavior passHref>
+                    <NavLink>Contact</NavLink>
+                </Link>
+            </li>
 		</Div2>
 		<Div3>
 			<SocialIcons href='https://github.com/achdiathadit' target='_blank'>

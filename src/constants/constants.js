@@ -1,70 +1,68 @@
-export const projects = [
-	{
-		title: 'Homepage 1.0',
-		description:
-			'My very first personal homepage using just plain HTML and CSS. Simple and fun.',
-		image: '/images/1.png',
-		tags: ['Javascript', 'HTML', 'CSS'],
-		source: 'https://github.com/achdiathadit/personal-site',
-		visit: 'https://achdiathadit.github.io/personal-site/',
-		id: 0,
-	},
-	{
-		title: 'Stackbuy',
-		description:
-			'Built with MERN stack, Stackbuy is an e-commerce site specifically for gadget enthusiast.',
-		image: '/images/2.png',
-		tags: ['React', 'Nodejs', 'Express', 'MongoDB'],
-		source: 'https://github.com/achdiathadit/stackbuy',
-		visit: 'https://github.com/achdiathadit/stackbuy/',
-		id: 1,
-	},
-	{
-		title: 'Octofinder',
-		description: 'The best way to look for your favorite Github users.',
-		image: '/images/3.png',
-		tags: ['React', 'Nodejs', 'Github API'],
-		source: 'https://github.com/achdiathadit/octofinder',
-		visit: 'https://achdiathadit.github.io/octofinder/',
-		id: 2,
-	},
-	{
-		title: 'Dice Game',
-		description:
-			'Random dice game that really pumps your adrenaline. You dice, we dice.',
-		image: '/images/4.png',
-		tags: ['Javascript', 'HTML', 'CSS'],
-		source: 'https://github.com/achdiathadit/dice-game',
-		visit: 'https://achdiathadit.github.io/dice-game/',
-		id: 3,
-	},
-	{
-		title: 'Giggle',
-		description:
-			'Just like Google, Giggle is a search engine that will help you find all the information you need. Just Giggling it!',
-		image: '/images/5.png',
-		tags: ['React', 'Tailwind CSS', 'Google API'],
-		source: 'https://github.com/achdiathadit/giggle',
-		visit: 'https://search-giggle.netlify.app/',
-		id: 4,
-	},
-	{
-		title: '7th Heaven NFT Marketplace',
-		description:
-			'Enjoy a unique transaction experience on the NFT marketplace, only in your hands.',
-		image: '/images/6.png',
-		tags: ['React', 'React Native', 'Tailwind CSS'],
-		source: 'https://github.com/achdiathadit/seventh-heaven-showcase',
-		visit: 'https://seventh-heaven-showcase.vercel.app/',
-		id: 5,
-	},
-];
+	export const projects = [
+		{
+			title: 'Homepage 1.0',
+			description:
+				'Responsive personal homepage built with semantic HTML/CSS, establishing a clean, accessible portfolio presence.',
+			image: '/images/1.png',
+			tags: ['Javascript', 'HTML', 'CSS'],
+			source: 'https://github.com/achdiathadit/personal-site',
+			visit: 'https://achdiathadit.github.io/personal-site/',
+			id: 0,
+		},
+		{
+			title: 'Stackbuy',
+			description:
+				'MERN-based e-commerce web app for gadget enthusiasts, featuring product catalog, cart, and order flow.',
+			image: '/images/2.png',
+			tags: ['React', 'Nodejs', 'Express', 'MongoDB'],
+			source: 'https://github.com/achdiathadit/stackbuy',
+			visit: 'https://github.com/achdiathadit/stackbuy/',
+			id: 1,
+		},
+		{
+			title: 'Octofinder',
+			description:
+				'GitHub user search tool consuming the GitHub API with debounced queries and profile detail views.',
+			image: '/images/3.png',
+			tags: ['React', 'Nodejs', 'Github API'],
+			source: 'https://github.com/achdiathadit/octofinder',
+			visit: 'https://achdiathadit.github.io/octofinder/',
+			id: 2,
+		},
+		{
+			title: 'Dice Game',
+			description:
+				'Browser-based dice game showcasing game state management and UI animations with vanilla JavaScript.',
+			image: '/images/4.png',
+			tags: ['Javascript', 'HTML', 'CSS'],
+			source: 'https://github.com/achdiathadit/dice-game',
+			visit: 'https://achdiathadit.github.io/dice-game/',
+			id: 3,
+		},
+		{
+			title: 'Giggle',
+			description:
+				'Google-powered search interface built with React and Tailwind; supports web/image results and pagination.',
+			image: '/images/5.png',
+			tags: ['React', 'Tailwind CSS', 'Google API'],
+			source: 'https://github.com/achdiathadit/giggle',
+			visit: 'https://search-giggle.netlify.app/',
+			id: 4,
+		},
+		{
+			title: '7th Heaven NFT Marketplace',
+			description:
+				'Cross-platform NFT marketplace showcase using React/React Native with listing, detail views, and responsive UI.',
+			image: '/images/6.png',
+			tags: ['React', 'React Native', 'Tailwind CSS'],
+			source: 'https://github.com/achdiathadit/seventh-heaven-showcase',
+			visit: 'https://seventh-heaven-showcase.vercel.app/',
+			id: 5,
+		},
+	];
 
 export const TimeLineData = [
-	{ year: 2019, text: 'Started my journey as web developer' },
-	{
-		year: 2020,
-		text: 'Worked as freelance web developer and started my YouTube channel',
-	},
-	{ year: 2021, text: 'Get hired as professional frontend developer' },
+	{ year: 2013, text: 'Toyota Astra Motor — Corporate Strategy & PDCA Lead' },
+	{ year: 2020, text: 'Dans Multi Pro — Software Engineer (Frontend-Focused)' },
+	{ year: 2022, text: 'Astra Property — Senior Frontend Engineer' },
 ];

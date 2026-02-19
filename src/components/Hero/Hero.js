@@ -12,14 +12,15 @@ import { LeftSection } from './HeroStyles';
 const Hero = () => (
 	<Section row nopadding>
 		<LeftSection>
-			<SectionSubTitle>Hello there, my name is</SectionSubTitle>
+			<SectionSubTitle>Frontend Engineer (React)</SectionSubTitle>
 			<SectionTitle undersub main center>
-				Achdiat Hadit.
+				Achdiat Hadit Camil
 			</SectionTitle>
 			<SectionText>
-				I'm a former white collar who loves coding and design swerved to pursue
-				his passion to become a professional full-stack web developer. I also
-				enjoy teaching and building things.
+				Frontend Engineer / Software Developer with 5+ years building scalable,
+				business-impacting web apps across construction, property, and enterprise.
+				Specialized in React, TypeScript, and frontend architecture with strong
+				stakeholder communication from prior corporate leadership roles.
 			</SectionText>
 			<Button
 				onClick={() => (window.location = 'mailto:achdiat.dev@gmail.com')}

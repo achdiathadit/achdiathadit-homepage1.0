@@ -13,10 +13,9 @@ const Contact = () => (
 		<SectionDivider divider />
 		<SectionTitle>Get In Touch</SectionTitle>
 		<SectionText>
-			I'm currently looking for new opportunities, either freelance or full-time
-			jobs. <br />
-			If you have a job offer, business needs, or just want to chat, feel free
-			to contact me.
+			Open to full-time roles and onsite relocation. Comfortable in fast-paced,
+			client-facing, Agile environments. If you’d like to discuss opportunities or
+			collaborate, reach out anytime.
 		</SectionText>
 		<Button onClick={() => (window.location = 'mailto:achdiat.dev@gmail.com')}>
 			Say Hi

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaReact, FaFigma, FaDatabase } from 'react-icons/fa';
+import { FaReact, FaFigma, FaDatabase, FaCheckCircle, FaTools, FaUsers } from 'react-icons/fa';
 import {
 	Section,
 	SectionDivider,
@@ -17,11 +17,10 @@ import {
 const Technologies = () => (
 	<Section id='tech'>
 		<SectionDivider divider />
-		<SectionTitle>Tech Stack</SectionTitle>
+		<SectionTitle>Core Skills</SectionTitle>
 		<SectionText>
-			The magic of user experience and behind-the-scenes of the blockbuster web
-			and apps lies here. <br />
-			Here are a few tech stack I’ve been working with recently:
+			Core capabilities for building modern, scalable frontends. Below are the
+			tools, libraries, and practices I use most often.
 		</SectionText>
 		<List>
 			<ListItem>
@@ -29,34 +28,59 @@ const Technologies = () => (
 				<ListContainer>
 					<ListTitle>Frontend</ListTitle>
 					<ListParagraph>
-						<li>React</li>
-						<li>Redux</li>
-						<li>Nextjs</li>
-						<li>Styled Components</li>
-						<li>Bootstrap</li>
+						<li>React, Next.js, React Native</li>
+						<li>TypeScript, JavaScript (ES6+)</li>
+						<li>HTML5, CSS3</li>
 					</ListParagraph>
 				</ListContainer>
 			</ListItem>
 			<ListItem>
 				<FaDatabase size='4rem' />
 				<ListContainer>
-					<ListTitle>Backend</ListTitle>
+					<ListTitle>State & Data</ListTitle>
 					<ListParagraph>
-						<li>Nodejs</li>
-						<li>Express</li>
-						<li>MongoDB</li>
-						<li>REST API</li>
+						<li>Redux, Context API</li>
+						<li>Axios</li>
 					</ListParagraph>
 				</ListContainer>
 			</ListItem>
 			<ListItem>
 				<FaFigma size='4rem' />
 				<ListContainer>
-					<ListTitle>UI/UX</ListTitle>
+					<ListTitle>UI & Styling</ListTitle>
 					<ListParagraph>
-						<li>Figma</li>
-						<li>GIMP</li>
-						<li>Adobe Illustrator</li>
+						<li>Tailwind CSS, Material UI, Ant Design</li>
+						<li>Sass/SCSS, Styled Components</li>
+					</ListParagraph>
+				</ListContainer>
+			</ListItem>
+			<ListItem>
+				<FaCheckCircle size='4rem' />
+				<ListContainer>
+					<ListTitle>Testing & Quality</ListTitle>
+					<ListParagraph>
+						<li>Unit Testing, Debugging</li>
+						<li>Performance Optimization</li>
+					</ListParagraph>
+				</ListContainer>
+			</ListItem>
+			<ListItem>
+				<FaTools size='4rem' />
+				<ListContainer>
+					<ListTitle>Tooling & CI/CD</ListTitle>
+					<ListParagraph>
+						<li>Git, Jenkins</li>
+						<li>Webpack (basic), Agile/Scrum</li>
+					</ListParagraph>
+				</ListContainer>
+			</ListItem>
+			<ListItem>
+				<FaUsers size='4rem' />
+				<ListContainer>
+					<ListTitle>Design & Collaboration</ListTitle>
+					<ListParagraph>
+						<li>Figma, Design Systems</li>
+						<li>Cross-team Communication</li>
 					</ListParagraph>
 				</ListContainer>
 			</ListItem>

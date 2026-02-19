@@ -17,10 +17,10 @@ const Footer = () => {
 	return (
 		<FooterWrapper>
 			<LinkList>
-				{/* <LinkColumn>
+				<LinkColumn>
 					<LinkTitle>Call</LinkTitle>
-					<LinkItem href='tel: +6282110046473'>+62-82110046473</LinkItem>
-				</LinkColumn> */}
+					<LinkItem href='tel:+6282110046473'>+62 821-1004-6473</LinkItem>
+				</LinkColumn>
 				<LinkColumn>
 					<LinkTitle>Email</LinkTitle>
 					<LinkItem href='mailto: achdiat.dev@gmail.com'>
@@ -30,7 +30,7 @@ const Footer = () => {
 			</LinkList>
 			<SocialIconsContainer>
 				<CompanyContainer>
-					<Slogan>© 2022 Achdiat Hadit. All rights reserved.</Slogan>
+					<Slogan>© 2026 Achdiat Hadit Camil. All rights reserved.</Slogan>
 				</CompanyContainer>
 				<SocialContainer>
 					<SocialIcons href='https://github.com/achdiathadit' target='_blank'>

@@ -26,9 +26,10 @@ import { projects } from '../../constants/constants';
 const Projects = () => (
 	<Section nopadding id='projects'>
 		<SectionDivider divider />
-		<SectionTitle>Some Projects I've Done</SectionTitle>
+		<SectionTitle>Selected Projects</SectionTitle>
 		<SectionText>
-			Please take a look at the projects that I've done so far.
+			A curated selection highlighting React/Next.js development, performance,
+			and UI engineering.
 		</SectionText>
 		<GridContainer>
 			{projects.map(
@@ -53,11 +54,11 @@ const Projects = () => (
 						<CardInfo>{description}</CardInfo>
 						<Hr />
 						<TitleContent>Stack</TitleContent>
-						<TagList>
-							{tags.map((tag, i) => (
-								<Tag key={1}>{tag}</Tag>
-							))}
-						</TagList>
+                        <TagList>
+                            {tags.map((tag, i) => (
+                                <Tag key={i}>{tag}</Tag>
+                            ))}
+                        </TagList>
 					</BlogCard>
 				)
 			)}

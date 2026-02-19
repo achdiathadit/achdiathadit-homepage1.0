@@ -111,14 +111,19 @@ export const ExternalLinks = styled.a`
 export const TagList = styled.ul`
 	display: flex;
 	justify-content: center;
-	padding: 2rem;
+	flex-wrap: wrap;
+	gap: 8px 12px;
+	padding: 1.5rem 2rem;
 	margin-bottom: 2rem;
+	max-width: 100%;
+	box-sizing: border-box;
 `;
 export const Tag = styled.li`
 	background: #13adc7;
 	border-radius: 10px;
-	padding: 1rem 1.5rem;
-	margin: 0 0.5rem 0;
+	padding: 0.6rem 1.2rem;
+	margin: 0;
 	color: white;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
+	white-space: nowrap;
 `;

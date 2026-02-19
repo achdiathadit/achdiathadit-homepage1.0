@@ -73,35 +73,25 @@ const Timeline = () => {
 			<SectionTitle>About Me</SectionTitle>
 			<FlexContainer>
 				<SectionRight>
-					<Image
-						src='/images/profpicaltbw.png'
-						height={370}
-						width={345}
-						quality={100}
-					/>
+                <Image
+                    src='/images/profpicaltbw.png'
+                    height={300}
+                    width={280}
+                    quality={100}
+                    alt='Profile photo black and white'
+                />
 				</SectionRight>
 				<SectionLeft>
 					<SectionText>
-						Hi! my name is Achdiat Hadit.
+						Frontend Engineer with 5+ years delivering scalable digital products
+						across construction, property, and enterprise. I specialize in React,
+						Next.js, and TypeScript—translating complex workflows into intuitive
+						user experiences and measurable business impact. Strong in design
+						systems, reusable components, and cross-team collaboration.
 						<br />
-						<br /> I am a former white collar with more than 5 years of
-						experience. <br />
-						One time, I decided to switch careers and pursue my passion in
-						coding and design. <br />
-						<br />
-						Whether it's UI/UX design, frontend, or backend, I embrace learning
-						everything and try to always be updated with the rapidly changing
-						industry.
-						<br />
-						<br />I also enjoy teaching and sharing knowledge, one way is
-						through my{' '}
-						<a
-							href='https://www.youtube.com/channel/UC99tWCN_0aIB6E0sCKB8OoA'
-							target='_blank'
-						>
-							<Alink>YouTube channel</Alink>
-						</a>
-						.
+						<br /> Highlights: Rp ~1.98B potential savings and 64% faster inspections from
+						a construction quality platform; NQI Rp 1.42B (ratio 2.52), NPS 55,
+						NES 57.
 					</SectionText>
 				</SectionLeft>
 			</FlexContainer>

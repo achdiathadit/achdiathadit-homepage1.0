@@ -86,10 +86,13 @@ export const ListTitle = styled.h4`
 	}
 `;
 
-export const ListParagraph = styled.p`
+export const ListParagraph = styled.ul`
 	font-size: 18px;
 	line-height: 30px;
 	color: #cccccc;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 
 	@media ${(props) => props.theme.breakpoints.md} {
 		font-size: 16px;
