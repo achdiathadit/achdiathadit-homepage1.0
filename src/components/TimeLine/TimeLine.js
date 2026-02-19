@@ -83,15 +83,15 @@ const Timeline = () => {
 				</SectionRight>
 				<SectionLeft>
 					<SectionText>
-						Frontend Engineer with 5+ years delivering scalable digital products
+						Frontend Engineer focused on delivering scalable digital products
 						across construction, property, and enterprise. I specialize in React,
 						Next.js, and TypeScript—translating complex workflows into intuitive
-						user experiences and measurable business impact. Strong in design
-						systems, reusable components, and cross-team collaboration.
+						user experiences and tangible business outcomes. Strong in design
+						systems, reusable components, and cross‑team collaboration.
 						<br />
-						<br /> Highlights: Rp ~1.98B potential savings and 64% faster inspections from
-						a construction quality platform; NQI Rp 1.42B (ratio 2.52), NPS 55,
-						NES 57.
+						<br />Highlights include driving efficiency gains, improving inspection quality
+						and governance, and achieving strong user adoption across multiple
+						product modules.
 					</SectionText>
 				</SectionLeft>
 			</FlexContainer>
